@@ -13,18 +13,7 @@ class Assets {
   static const String fontsCirce = 'assets/fonts/Circe.otf';
   static const String imagesAkpsImage = 'assets/images/akps_image.jpg';
   static const String imagesAkpsResume = 'assets/images/akps_resume.pdf';
-  static const String imagesAndroidBasicsCert =
-      'assets/images/android_basics_cert.png';
-  static const String imagesAssociateAndroidDev =
-      'assets/images/associate_android_dev.png';
   static const String imagesCircle = 'assets/images/circle.png';
-  static const String imagesCloudDeveloperCert =
-      'assets/images/cloud_developer_cert.png';
-  static const String imagesCmuCert = 'assets/images/cmu_cert.png';
-  static const String imagesDataScienceCert =
-      'assets/images/data_science_cert.png';
-  static const String imagesDavidLegend = 'assets/images/david_legend.png';
-  static const String imagesDevMeditate = 'assets/images/dev_meditate.png';
   static const String imagesDownArrow = 'assets/images/down-arrow.png';
   static const String imagesDownArrow2 = 'assets/images/down-arrow-2.png';
   static const String imagesGooglePlay = 'assets/images/google_play.png';
@@ -43,18 +32,9 @@ class Assets {
       'assets/images/projects/oracle_solution/oracle_solution2.png';
   static const String oracleSolutionOracleSolutionsCoverPhoto =
       'assets/images/projects/oracle_solution/oracle_solutions_cover_photo.png';
-  static const String screenshots0 = 'assets/screenshots/0.jpg';
-  static const String screenshots1 = 'assets/screenshots/1.jpg';
-  static const String screenshots10 = 'assets/screenshots/10.jpg';
-  static const String screenshots11 = 'assets/screenshots/11.jpg';
-  static const String screenshots2 = 'assets/screenshots/2.jpg';
-  static const String screenshots3 = 'assets/screenshots/3.gif';
-  static const String screenshots4 = 'assets/screenshots/4.jpg';
-  static const String screenshots5 = 'assets/screenshots/5.gif';
-  static const String screenshots6 = 'assets/screenshots/6.gif';
-  static const String screenshots7 = 'assets/screenshots/7.jpg';
-  static const String screenshots8 = 'assets/screenshots/8.jpg';
-  static const String screenshots9 = 'assets/screenshots/9.jpg';
+  static const String screenshots1 = 'assets/screenshots/1.png';
+  static const String screenshots2 = 'assets/screenshots/2.png';
+  static const String screenshots3 = 'assets/screenshots/3.png';
   static const String viaductAssessmentsNteractionArea =
       'assets/images/projects/viaduct/Assessments_nteraction_Area.jpg';
   static const String viaductChatInterface =

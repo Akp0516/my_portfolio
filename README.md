@@ -6,30 +6,9 @@
 ## Enjoy
 
 
-![Screenshot](assets/screenshots/0.jpg)
+![Screenshot](assets/screenshots/1.png)
 
-![Screenshot](assets/screenshots/1.jpg)
+![Screenshot](assets/screenshots/2.png)
 
-![Screenshot](assets/screenshots/2.jpg)
-
-![Screenshot](assets/screenshots/3.gif)
-
-![Screenshot](assets/screenshots/4.jpg)
-
-![Screenshot](assets/screenshots/5.gif)
-
-![Screenshot](assets/screenshots/6.gif)
-
-![Screenshot](assets/screenshots/7.jpg)
-
-![Screenshot](assets/screenshots/8.jpg)
-
-![Screenshot](assets/screenshots/9.jpg)
-
-![Screenshot](assets/screenshots/10.jpg)
-
-![Screenshot](assets/screenshots/11.jpg)
-
-
-
+![Screenshot](assets/screenshots/3.png)
 
