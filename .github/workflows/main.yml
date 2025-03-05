@@ -1,31 +1,35 @@
-name: Build and Release APK
-on: push
+name: Deploy to Netlify
+
+on:
+  push:
+    branches:
+      - main  # Change to your deployment branch
+
 jobs:
-    hosting:
-      name: Deploy Website
-      runs-on: ubuntu-latest
-      steps:
-        # Checkout Repository
-        - uses: actions/checkout@v1
+  deploy:
+    runs-on: ubuntu-latest
 
-        # Install Flutter command
-        - uses: subosito/flutter-action@v1
-          with:
-            channel: 'dev'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-        # Build Website
-        - name: Build Website
-          run: |
-            flutter config --enable-web
-            flutter pub get
-            flutter build web --release
-          working-directory: ./
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
 
-        # Deploy Firebase Hosting
-        - name: Deploy Firebase Hosting
-          uses: w9jds/firebase-action@master
-          with:
-            args: deploy --only hosting:aerium-v2
-          env:
-            FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-            PROJECT_PATH: ./
+      - name: Install dependencies
+        run: npm install  # Change this if using yarn or pnpm
+
+      - name: Build project
+        run: npm run build  # Modify if using another build command
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v2.0
+        with:
+          publish-dir: ./dist  # Change to your build output directory
+          production-branch: main
+          deploy-message: "Automated deployment from GitHub Actions"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
