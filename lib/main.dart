@@ -1,4 +1,3 @@
-import 'package:aerium/injection_container.dart';
 import 'package:flutter/material.dart';
 import 'package:aerium/app_theme.dart';
 import 'package:aerium/presentation/pages/home/home_page.dart';
@@ -14,18 +13,16 @@ import 'configure_web.dart';
 // mobile -> kotlin, android, flutter, jetpack compose,
 // web -> react, javascript
 
-
 // Certifications
 // TODO:: Add Cloud Certification from Udacity
 
 // Contact
 // TODO:: Fix email service
 
-
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  configureDependencies();
-   configureApp();
+  // configureDependencies();
+  configureApp();
   runApp(Aerium());
 }
 
@@ -43,5 +40,3 @@ class Aerium extends StatelessWidget {
     );
   }
 }
-
-

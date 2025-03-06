@@ -115,7 +115,6 @@ class _AeriumButtonState extends State<AeriumButton>
         height: widget.height,
         child: ElevatedButton(
           onPressed: () {
-            print("object@@@@@");
             widget.onPressed!();
           },
           style: widget.buttonStyle ?? defaultButtonStyle,
