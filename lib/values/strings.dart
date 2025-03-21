@@ -48,7 +48,7 @@ class StringConst {
   static const String MESSAGE_ERROR_MSG =
       "* Please enter something to send this form";
   static const String SEND_MESSAGE = "Send Message";
-  static const String COPYRIGHT = "©  2021  Built by  $DEV_NAME,";
+  static const String COPYRIGHT = "©  2024  Built by  $MY_NAME,";
   // static const String DESIGNED_BY = "Designed by Julius G.";
 
   static const String DESIGN_LINK =
@@ -127,7 +127,7 @@ class StringConst {
   static const String PROJECT_NAME = "Project Name";
 
   static const String INTRO = "Hi, my name is";
-  static const String DEV_NAME = "Anil Kumar";
+  static const String MY_NAME = "Anil Kumar";
   static const String PUNCH_LINE = "I build things with flutter";
   static const String SPECIALITY = "FLUTTER DEV";
   static const String DESIGNED_IN = "Made in India with ";

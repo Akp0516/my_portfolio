@@ -4,38 +4,19 @@ class ImagePath {
   //images route
   static const String imageDir = "assets/images";
   static const String projectsDir = "assets/images/projects";
-  static const String screenshotsDir = "assets/screenshots";
 
   //Images
   static const String DEV = "$imageDir/akps_image.jpg";
 
-  static const String VYBZ = "$imageDir/vybz.jpg";
-  static const String DAVID = "$imageDir/david.png";
-  static const String COLOSSAL_TOONS = "$imageDir/colossal_toons.jpg";
-  static const String LOGIN_CATALOG = "$imageDir/login_catalog.jpg";
-  static const String ONBOARDING_APP = "$imageDir/onboarding_app.jpg";
-  static const String FOODY_BITE = "$imageDir/foodybite.jpg";
-  static const String OTP_TEXT_FIELD = "$imageDir/otp_package.jpg";
-  static const String FINOPP = "$imageDir/finopp.jpg";
-  static const String BEQUIP_LOGISTICS = "$imageDir/bequip_logistics.jpg";
-  static const String LEARN_UPP = "$imageDir/learn_upp.jpg";
   static const String WORKS = "$imageDir/works.png";
 
   static const String CIRCLE = "$imageDir/circle.png";
   static const String PLAYSTORE = "$imageDir/playstore.png";
   static const String ARROW_RIGHT = "$imageDir/right-arrow.png";
   static const String ARROW_DOWN = "$imageDir/down-arrow.png";
-  static const String ARROW_DOWN_2 = "$imageDir/down-arrow-2.png";
-  static const String ARROW_UP = "$imageDir/up-arrow.png";
   static const String ARROW_DOWN_IOS = "$imageDir/ios-down-arrow.png";
-  static const String CAESAR = "$imageDir/ceasar-bust.png";
-  static const String MEDITATION = "$imageDir/meditation.png";
-  static const String ABOUT_PORTRAIT = "$imageDir/about_portrait.png";
-  static const String DEV_ABOUT = "$imageDir/dev-about.jpg";
-  static const String DEV_WORK = "$imageDir/LockMain_work_space.png";
+  static const String DEV_WORK = "$imageDir/skill_bg_image.gif";
 
-  static const String DEV_SKILLS = "$imageDir/skills.png";
-  static const String DEV_SKILLS_1 = "$imageDir/skills1.png";
   static const String DEV_SKILLS_2 = "$imageDir/skills2.png";
   static const String GOOGLE_PLAY = "$imageDir/google_play.png";
 
@@ -50,24 +31,6 @@ class ImagePath {
 
   // Projects
 
-  // Nimbus
-  static const String NIMBUS_COVER = "$projectsDir/nimbus/nimbus_cover.jpg";
-  static const String NIMBUS = "$projectsDir/nimbus/nimbus.jpg";
-
-  // Foodybite
-  static const String FOODY_BITE_COVER =
-      "$projectsDir/foodybite/foodybite_cover.png";
-  static const String FOODY_BITE_HOME =
-      "$projectsDir/foodybite/foodybite_home.png";
-  static const String FOODY_BITE_STARTING_FLOW =
-      "$projectsDir/foodybite/foodybite_starting_flow.png";
-  static const String FOODY_BITE_HOME_FLOW =
-      "$projectsDir/foodybite/foodybite_home_flow.png";
-  static const String FOODY_BITE_REVIEW_FLOW =
-      "$projectsDir/foodybite/foodybite_review_favorite_notifications_flow.png";
-  static const String FOODY_BITE_TYPOGRAPHY =
-      "$projectsDir/foodybite/foodybite_typography.png";
-
   // Portfolio Site V2
   static const String AERIUM_V2_COVER =
       "$projectsDir/aerium-v2/aerium_v2_cover.png";
@@ -77,37 +40,13 @@ class ImagePath {
       "$projectsDir/aerium-v2/typography.jpg";
   static const String AERIUM_V2_LAST = "$projectsDir/aerium-v2/last.jpg";
 
-  // Drop
+  // Oracle solutions
   static const String ORACLE_SOLUTIONS_COVER =
       "$projectsDir/oracle_solution/oracle_solutions_cover_photo.png";
   static const String ORACLE_SOLUTIONS1 =
       "$projectsDir/oracle_solution/oracle_solution1.png";
   static const String ORACLE_SOLUTIONS2 =
       "$projectsDir/oracle_solution/oracle_solution2.png";
-  static const String DROP_EASY_ACCESS =
-      "$projectsDir/drop/drop_easy_access.gif";
-  static const String DROP_FLOW_CHART = "$projectsDir/drop/drop_flowchart.png";
-  static const String DROP_MINIMAL_DESIGN =
-      "$projectsDir/drop/drop_minimal_design.png";
-  static const String DROP_SIMPLE = "$projectsDir/drop/drop_simple.png";
-  static const String DROP_THANKS = "$projectsDir/drop/drop_thanks.gif";
-  static const String DROP_WIREFRAMES = "$projectsDir/drop/drop_wireframes.gif";
-
-  // Roam
-  static const String ROAM_COVER = "$projectsDir/roam/roam_cover.jpeg";
-  static const String ROAM_OVERALL = "$projectsDir/roam/roam_overall.jpeg";
-  static const String ROAM_ONBOARDING =
-      "$projectsDir/roam/roam_onboarding.jpeg";
-  static const String ROAM_HOME = "$projectsDir/roam/roam_home.jpeg";
-  static const String ROAM_EXPLORE = "$projectsDir/roam/roam_explore.jpeg";
-  static const String ROAM_PROFILE = "$projectsDir/roam/roam_profile.jpeg";
-  static const String ROAM_FLOW_CHART = "$projectsDir/roam/roam_flow_chart.png";
-  static const String ROAM_WIREFRAMES_1 =
-      "$projectsDir/roam/wireframes_app.jpeg";
-  static const String ROAM_WIREFRAMES_2 =
-      "$projectsDir/roam/wireframes_onboarding.jpeg";
-  static const String ROAM_WIREFRAMES_3 =
-      "$projectsDir/roam/wireframes_signup_login.jpeg";
 
   // Disney
   static const String DISNEY_PLUS_COVER =

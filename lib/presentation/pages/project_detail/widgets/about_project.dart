@@ -128,7 +128,7 @@ class _AboutprojectState extends State<Aboutproject> {
                   controller: widget.projectDataController,
                   width: widthOfProjectItem,
                   title: StringConst.AUTHOR,
-                  subtitle: StringConst.DEV_NAME,
+                  subtitle: StringConst.MY_NAME,
                 ),
               ],
             ),

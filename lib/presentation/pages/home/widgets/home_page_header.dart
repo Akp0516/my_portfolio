@@ -226,8 +226,8 @@ class _HomePageHeaderState extends State<HomePageHeader>
                             child: Image.asset(
                               ImagePath.DEV_WORK, // Replace with your image
                               width:
-                                  screenWidth * 0.2, // Adjust size accordingly
-                              height: screenWidth * 0.2,
+                                  screenWidth * 0.25, // Adjust size accordingly
+                              height: screenWidth * 0.25,
                               fit: BoxFit.cover,
                             ),
                           ),

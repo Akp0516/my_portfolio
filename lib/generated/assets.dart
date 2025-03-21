@@ -21,6 +21,7 @@ class Assets {
   static const String imagesLockMainWorkSpace =
       'assets/images/LockMain_work_space.png';
   static const String imagesRightArrow = 'assets/images/right-arrow.png';
+  static const String imagesSkillBgImage = 'assets/images/skill_bg_image.gif';
   static const String imagesSkills = 'assets/images/skills.png';
   static const String imagesSkills1 = 'assets/images/skills1.png';
   static const String imagesSkills2 = 'assets/images/skills2.png';
